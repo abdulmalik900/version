@@ -10,8 +10,8 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
 
-    // FlowBite library 1st step
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    // // FlowBite library 1st step
+    // 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -34,6 +34,6 @@ module.exports = {
     },
   },
   // 2nd Step add require('flowbite/plugin') in plugin file  
-  plugins: [require('flowbite/plugin')],
+  plugins: [],
 }
 
